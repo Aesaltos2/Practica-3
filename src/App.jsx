@@ -17,6 +17,7 @@ function App() {
   const [peopleCount, setPeopleCount] = useState(1);
   const [tipAmount, setTipAmount] = useState(0);
   const [totalAmount, setTotalAmount] = useState(0);
+  const [custom, customValue] = useState(0);
 
   const handleTip = (value) => {
     setPercentageValue(value);

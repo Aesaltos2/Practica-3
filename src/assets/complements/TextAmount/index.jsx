@@ -5,7 +5,7 @@ export const AmountText = ({ tipAmount }) => {
                 <h2>Tip Amount</h2>
                 <p>/ person</p>
             </div>
-            <h3>$<span id="tip-amount">{tipAmount.toFixed(2)}</span></h3>
+            <h3>${tipAmount && !isNaN(tipAmount) ? <span id="tip-amount">{tipAmount.toFixed(2)}</span> : '0.00'}</h3>
         </div>
     );
 }
