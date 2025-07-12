@@ -55,7 +55,7 @@ function App() {
         textAlign: 'center',
         fontSize: '6rem',
         fontWeight: '600',
-        margin: '0.5rem 0',
+        margin: '1rem 0',
         color: '#333'
       }}>
         10.4 Team Sprint Report: Deploy a Web App on GKE
