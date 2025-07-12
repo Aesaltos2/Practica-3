@@ -53,9 +53,9 @@ function App() {
     <span style={{
         display: 'block',
         textAlign: 'center',
-        fontSize: '4rem',
+        fontSize: '6rem',
         fontWeight: '600',
-        margin: '1rem 0',
+        margin: '0.5rem 0',
         color: '#333'
       }}>
         10.4 Team Sprint Report: Deploy a Web App on GKE
