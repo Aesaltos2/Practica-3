@@ -51,6 +51,9 @@ function App() {
   return (
     <>
       <Header />
+      <div>
+        Hola
+      </div>
       <GeneralWrapper>
         <DataWrapper
           billAmount={billAmount}
