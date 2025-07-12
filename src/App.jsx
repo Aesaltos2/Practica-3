@@ -53,7 +53,7 @@ function App() {
     <span style={{
         display: 'block',
         textAlign: 'center',
-        fontSize: '6rem',
+        fontSize: '3rem',
         fontWeight: '600',
         margin: '1rem 0',
         color: '#333'
