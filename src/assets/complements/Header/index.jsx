@@ -1,6 +1,6 @@
 import iconDollar from '../../images/logo.svg'
 export const Header = () => {
     return (  
-        <header><img src={iconDollar} alt="" /></header>
+        <header>10.4 Team Sprint Report: Deploy a Web App on GKE</header>
     );
 }
