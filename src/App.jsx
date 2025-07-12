@@ -50,7 +50,16 @@ function App() {
 
   return (
     <>
-    <header>10.4 Team Sprint Report: Deploy a Web App on GKE</header>
+    <span style={{
+        display: 'block',
+        textAlign: 'center',
+        fontSize: '1.5rem',
+        fontWeight: '600',
+        margin: '1rem 0',
+        color: '#333'
+      }}>
+        10.4 Team Sprint Report: Deploy a Web App on GKE
+      </span>
       <Header />
       <GeneralWrapper>
         <DataWrapper
